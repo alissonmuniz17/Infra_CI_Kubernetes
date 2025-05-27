@@ -17,4 +17,5 @@ module "vpc" {
   enable_dns_support   = true
 
   enable_nat_gateway = true
+  enable_public_ip_assign_on_launch = true
 }
